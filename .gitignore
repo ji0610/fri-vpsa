@@ -1,0 +1,11 @@
+# Only source files are published. Binaries stay local.
+*
+!*/
+!*.go
+!go.mod
+!go.sum
+!*.md
+!.gitignore
+# Kept locally, not published.
+/gopher.go
+/vaja/
